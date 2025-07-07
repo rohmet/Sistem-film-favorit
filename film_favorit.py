@@ -58,13 +58,13 @@ def ubah_film():
 
 def main():
     while True:
-        print("\n=== SISTEM FILM FAVORIT ===")
-        print("1. Lihat Daftar Film Favorit")
-        print("2. Tambah Film Favorit")
-        print("3. Ubah Informasi Film")
-        print("4. Keluar") # Hanya ada 4 menu
+        print("\n=== APLIKASI FILM FAVORIT SAYA ===") # Judul diubah
+        print("1. Tampilkan Semua Film") # Teks menu diubah
+        print("2. Tambah Film Baru")
+        print("3. Ubah Data Film")
+        print("4. Keluar dari Aplikasi")
         
-        pilihan = input("Pilih menu (1/2/3/4): ")
+        pilihan = input("Silakan pilih opsi menu [1-4]: ") # Teks prompt diubah
 
         if pilihan == '1':
             tampilkan_film()
@@ -73,10 +73,9 @@ def main():
         elif pilihan == '3':
             ubah_film()
         elif pilihan == '4':
-            print("\nTerima kasih! Sampai jumpa.")
+            print("\nTerima kasih telah menggunakan aplikasi!") # Pesan keluar diubah
             break
         else:
             print("Pilihan tidak valid. Silakan coba lagi.")
-
 if __name__ == "__main__":
     main()
