@@ -77,5 +77,6 @@ def main():
             break
         else:
             print("Pilihan tidak valid. Silakan coba lagi.")
+            
 if __name__ == "__main__":
     main()
